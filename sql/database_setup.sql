@@ -25,3 +25,13 @@ CREATE TABLE time_credit(
     heures_disponibles FLOAT DEFAULT 10,
     FOREIGN KEY (user_id) REFERENCES User(user_id)
 );
+
+CREATE TABLE Transactions( 
+    transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    service_id INT NOT NULL,
+    user_id INT NOT NULL,
+    heures_echangees FLOAT NOT NULL,
+    date_transaction DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (service_id) REFERENCES Services(service_id),
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
+)
