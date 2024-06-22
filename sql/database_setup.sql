@@ -19,4 +19,9 @@ CREATE TABLE Services(
     FOREIGN KEY (user_id) REFERENCES User(user_id)
 );
 
-
+CREATE TABLE time_credit( 
+    credit_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    heures_disponibles FLOAT DEFAULT 10,
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
+);
