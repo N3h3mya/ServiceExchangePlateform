@@ -11,3 +11,12 @@ CREATE TABLE User (
 
 );
 
+CREATE TABLE Services(
+    service_id INT PRIMARY KEY AUTO_INCREMENT,
+    type_service varchar(100) NOT NULL,
+    description_service TEXT,
+    user_id INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
+);
+
+
