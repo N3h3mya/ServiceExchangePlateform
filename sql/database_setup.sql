@@ -1,4 +1,4 @@
-CREATE DATABASE Floriant_Dubois-Nehemie_Mubenga_Maweja;
+CREATE DATABASE Florian_Dubois-Nehemie_Mubenga_Maweja;
 USE Floriant_Dubois-Nehemie_Mubenga_Maweja;
 
 CREATE TABLE User (
