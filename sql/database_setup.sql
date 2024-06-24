@@ -1,5 +1,5 @@
 -- Création de la base de données
-CREATE DATABASE Florian_Dubois-Nehemie_Mubenga_Maweja;
+CREATE DATABASE Florian_Dubois_Nehemie_Mubenga_Maweja;
 
 -- Utilisation de la base de données
 USE Florian_Dubois-Nehemie_Mubenga_Maweja;
